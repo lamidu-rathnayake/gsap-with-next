@@ -1,10 +1,10 @@
-import BoxAnimate from "./components/BoxActivity/BoxAnimate";
+import TimeLine from "./components/controlTimeline/TimeLine";
 
 export default function Home() {
 
   return (
-    <div>
-      <BoxAnimate></BoxAnimate>
+    <div className="flex flex-col justify-center items-center">
+      <TimeLine></TimeLine>
     </div>
   );
 
