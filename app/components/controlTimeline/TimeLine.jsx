@@ -5,7 +5,7 @@ import { useRef } from 'react';
 
 gsap.registerPlugin(useGSAP);
 
-export default function(){
+export default function TimeLine(){
     const container = useRef();
     
     const timeLine = gsap.timeline({
